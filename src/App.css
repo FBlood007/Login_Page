@@ -12,7 +12,11 @@
 .App-logo {
   height: 40vmin;
 }
-
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 .buttonsubmit{
   width: 100%;
   border-radius: 7px;
